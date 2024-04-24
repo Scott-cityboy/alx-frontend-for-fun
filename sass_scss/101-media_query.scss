@@ -1,5 +1,10 @@
-@for $width from 1 through 4 {
-	.col-#{$width} {
-	width: percentage(1 / $width);
-	}
-}
+h1 {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 14px;
+    }
+  }
+  
